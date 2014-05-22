@@ -2,68 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Style Tile</title>
+  	<title>Style Tile</title>
 	
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/grid.css">	
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/grid.css">	
 
-  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  			
-  <link rel="stylesheet" href="css/styles.css">	
+  	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>  	
+  	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>		
+  	<link rel="stylesheet" href="css/styles.css">	
 	
 </head>
+
 <body>
-	
-	<div class="container">
+
+	<div class="container"> 
+
 		
-		<section>
-			<!-- Their Logo, not Yours -->
-			<img src="http://placehold.it/300x200" alt="Their Logo">
+		<section class = "logo grid_12">			
+				<div class="grid_4 alpha">
+					<img src="img/logo.png" alt="">
+				</div>	
+				<div class="grid_8 omega">
+					<div class = "slogan">
+						<h1>Long Nguyen</h1>
+						<p>Sotfware Developer/ 3D Animator</p>
+					</div>
+				</div>			
 		</section>	
 
-		<section>
-
-			<h1>Your Website</h1>
-			<em>Font name and color</em>
-			
-			<br><br>
-
-			<h2>Primary Header</h2>
-			<em>Font name and color</em>
-			
-			<br><br>
-
-			<h3>Secondary Header</h3>
-			<em>Font name and color</em>
-			
-			<br><br>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, maiores, hic, <a href="">Links</a> dolor laboriosam rerum numquam accusantium minima architecto inventore quibusdam <a href="">Links </a> harum illum labore quidem itaque iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nostrum, ex modi quibusdam aliquid quam numquam aut sed iusto nisi nulla rerum assumenda quidem necessitatibus magni quia excepturi cum fugit!</p>
-			<em>Font name and color</em>
-			
-		</section>
 		
-		<section>
-			<div class="color-1"></div>
-			<div class="color-2"></div>
-			<div class="color-3"></div>
-			<em>Color Palette</em>
+		<div class = "grid_7 alpha" >
 
+			
+			<section class = "content">
+					<div class = "header1 contentCover">
+						<h1>Header 1</h1>
+						<p>Font: Lobster, color: teal</p>
+					</div>
+					<br>
+				<div class = "contentCover">		
+					<div class = "header2">
+						<h2>Primary Header</h2>
+						<em>Font: Libre Baskerville, color: black</em>
+					</div>
+					<br>
+
+					<div class = "header3">
+						<h3>Secondary Header</h3>
+						<em>Font: Libre Baskerville, color: black</em>
+					</div>
+					<br>
+
+					<div class = "contentText">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, maiores, hic, <a href="">Links</a> dolor laboriosam rerum numquam accusantium minima architecto inventore quibusdam <a href="">Links </a> harum illum labore quidem itaque iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nostrum, ex modi quibusdam aliquid quam numquam aut sed iusto nisi nulla rerum assumenda quidem necessitatibus magni quia excepturi cum fugit!</p>
+						<em>Font: Time New Roman, color: black</em>
+					</div>						
+				</div>	
+			</section>
+
+		</div>
+
+		<div class = "grid_5 omega" >
+			<section>
+				<div class="color-1"></div>
+				<div class="color-2"></div>
+				<div class="color-3"></div>
+				<em>Color Palette</em>
+
+				<div class="clear"></div>
+			</section>
+			
+			<section>
+				<div class="pattern-1"></div>
+				<div class="pattern-2"></div>
+				<div class="pattern-3"></div>
+				<em>Textures/Patterns</em>
+
+				<div class="clear"></div>
+			</section>
+
+			<!-- Clearfix -->
 			<div class="clear"></div>
-		</section>
-		
-		<section>
-			<div class="pattern-1"></div>
-			<div class="pattern-2"></div>
-			<div class="pattern-3"></div>
-			<em>Textures/Patterns</em>
-
-			<div class="clear"></div>
-		</section>
-
-		<!-- Clearfix -->
-		<div class="clear"></div>
-
+		</div>
 	</div>
 	
   
